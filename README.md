@@ -36,15 +36,18 @@ The function can be run locally during development using Azure Functions Core To
 
 Hello, Great!
 
-## Live API
+## Azure Deployment
 
-The function has been deployed to Microsoft Azure and is publicly accessible through the following HTTP endpoint:
+The application was deployed to Microsoft Azure using the *Flex Consumption* hosting model.
 
-*Endpoint:* `https://functionapp55.azurewebsites.net/api/greattrigger`
-
-A successful request returns:
+During the deployment, the HTTP-triggered function was publicly accessible through an Azure Functions endpoint and returned:
 
 Hello, Great!
+
+The Azure resources used for this deployment have since been removed to avoid unnecessary ongoing resource usage and costs.
+
+The project can be redeployed to Azure when needed using the existing Function App project files and deployment configuration.
+
 
 ## Running Locally
 
